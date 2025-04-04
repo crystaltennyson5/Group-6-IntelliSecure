@@ -21,8 +21,8 @@ To get started with the DaVi Nails project, follow the steps below:
    git clone https://github.com/username/DaViNails.git
 
 ## Features
-Book Appointments: Users can book a manicure, pedicure, or nail art service with a preferred date and time.
-Services Overview: The website displays all available services with a brief description of each.
-Customer Testimonials: The site showcases reviews from happy customers.
-Contact Information: Users can contact DaVi Nails for any inquiries.
-Mobile-Responsive Design: The website is fully responsive and adapts to different screen sizes.
+1. Book Appointments: Users can book a manicure, pedicure, or nail art service with a preferred date and time.
+2. Services Overview: The website displays all available services with a brief description of each.
+3. Customer Testimonials: The site showcases reviews from happy customers.
+4. Contact Information: Users can contact DaVi Nails for any inquiries.
+5. Mobile-Responsive Design: The website is fully responsive and adapts to different screen sizes.
