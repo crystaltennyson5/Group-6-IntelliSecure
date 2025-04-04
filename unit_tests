@@ -1,0 +1,6 @@
+const { loginUser } = require('../src/frontend/login'); // Assuming you have a login function
+
+test('Login function should return true when valid credentials are provided', () => {
+    const result = loginUser('testuser', 'password123');
+    expect(result).toBe(true);
+});
