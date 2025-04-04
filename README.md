@@ -8,10 +8,9 @@ DaVi Nails is a full-service nail salon website designed to allow users to book 
 1. [Project Setup](#project-setup)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Project Setup
 To get started with the DaVi Nails project, follow the steps below:
@@ -26,3 +25,19 @@ To get started with the DaVi Nails project, follow the steps below:
 3. Customer Testimonials: The site showcases reviews from happy customers.
 4. Contact Information: Users can contact DaVi Nails for any inquiries.
 5. Mobile-Responsive Design: The website is fully responsive and adapts to different screen sizes.
+
+## Technologies Used
+1. Frontend: HTML, CSS, JavaScript
+2. Version Control: Git and GitHub
+3. Testing: Jest (for unit testing)
+
+## Usage
+Home: Displays a welcoming message with navigation to services, about us, and contact sections.
+
+Services: Displays the different services available at DaVi Nails.
+
+Booking Form: Users can fill out a form to schedule appointments.
+
+Contact: Displays the salon's contact information, including email and phone number.
+
+Feel free to explore the site and book an appointment!
