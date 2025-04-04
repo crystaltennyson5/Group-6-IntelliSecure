@@ -1,4 +1,4 @@
-const { loginUser } = require('../src/frontend/login'); // Assuming you have a login function
+const { loginUser } = require('../src/frontend/login');
 
 test('Login function should return true when valid credentials are provided', () => {
     const result = loginUser('testuser', 'password123');
