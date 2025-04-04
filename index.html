@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DaVi Nails - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to DaVi Nails</h1>
+            <p>Your local nail salon, dedicated to keeping your nails beautiful and healthy.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Manicure</h3>
+                <p>A relaxing and rejuvenating experience for your hands and nails.</p>
+            </div>
+            <div class="service">
+                <h3>Pedicure</h3>
+                <p>Pamper your feet with our luxurious pedicure services.</p>
+            </div>
+            <div class="service">
+                <h3>Nail Art</h3>
+                <p>Express your creativity with our custom nail art designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>DaVi Nails has been serving Houston for over 20 years, offering high-quality nail care at affordable prices. With over 500 salons, we're committed to excellence in service.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit us at 2700 S Kirkwood Rd, Houston, TX 77077</p>
+        <p>Email: <a href="mailto:ann.tran0229@gmail.com">ann.tran0229@gmail.com</a></p>
+        <p>Phone: (713) 478-0741</p>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="booking-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="service">Choose a Service:</label>
+            <select id="service" name="service">
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="nail-art">Nail Art</option>
+            </select>
+            
+            <label for="date">Preferred Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="confirmation-message"></div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"The best manicure I've ever had! DaVi Nails makes my nails look amazing every time!"</p>
+                <p>- Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"I love the nail art here! The staff is super friendly and always professional."</p>
+                <p>- Sarah Lee</p>
+            </div>
+            <div class="testimonial">
+                <p>"Highly recommend! Quick, professional, and affordable service!"</p>
+                <p>- John Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DaVi Nails. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
